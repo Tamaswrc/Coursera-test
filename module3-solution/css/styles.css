@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+font-family: calibri;
+
+}
+
+#header-nav {
+  background-color: #adb5bd;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand h1 { 
+  color: #000;
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.7
+}
+
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+
+}
+
+
+section {
+  border: 1px solid black;
+  background-color: #adb5bd;
+  padding:15px;
+  padding-top: 30px;
+  margin: 15px;
+  position: relative;
+  font-weight: 600;
+}
+
+
+.Chicken {
+  text-align: center;
+  position: absolute;
+  top:2px;
+  font-weight: bold;
+  width: 25%;
+  font-size: 125%;
+  margin-left: 35%;
+  }
+
+#nav-list {
+  margin-top: 10px;
+
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+  font-size: 1.3em;
+  
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
